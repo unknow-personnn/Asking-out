@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>SHE SAID YES! 🎉💖 | Purva & Jatin Forever</title>
+    <meta name="description" content="Purva said YES! Celebration page for Purva and Jatin." />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Confetti canvas for celebration burst -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="container celebrate-container">
+      <div class="badge">
+        <span>🎉</span> YAYYY! BEST DAY EVER! <span>🎉</span>
+      </div>
+
+      <h1>Hehehehe, I knew it! Love you a lot, Purva! 😘💍❤️</h1>
+      <p class="subtitle">
+        You just made Jatin the happiest guy on this entire planet! 🌍✨
+      </p>
+
+      <!-- Video Player for public/purvaV1.mp4 -->
+      <div class="video-card">
+        <div class="video-badge">
+          <span>🎬</span> Our Beautiful Memory
+        </div>
+        <video
+          id="purva-video"
+          class="video-player"
+          autoplay
+          loop
+          muted
+          playsinline
+          controls
+        >
+          <source src="public/purvaV1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="video-controls-overlay">
+          <button id="unmute-btn" class="control-btn" type="button">
+            🔊 Sound On / Mute
+          </button>
+        </div>
+      </div>
+
+      <!-- Sweet Love Note -->
+      <div class="love-note">
+        <p>
+          "Dear Purva, from the brightest sunny mornings to quiet beach sunsets,
+          I want you to be with me for every moment and make it unforgettable.
+          Thank you for choosing me.
+          I promise to make you smile every single day and will always be there for you."
+        </p>
+        <div class="signature">Forever yours, Jatin ❤️</div>
+      </div>
+
+      <!-- Memories Gallery showcasing public/purvaP1, public/purvaP2, public/purvaP3 -->
+      <div class="memories-section">
+        <div class="memories-title">
+          <span>📸</span> Moments I love that captures with you <span>📸</span>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="public/purvaP1.jpeg" alt="Purva's smile" class="gallery-img" />
+            <div class="gallery-caption">Sunshine Smile ☀️</div>
+          </div>
+          <div class="gallery-item">
+            <img src="public/purvaP2.jpeg" alt="Purva at sunset" class="gallery-img" />
+            <div class="gallery-caption">Sunset Magic 🌅</div>
+          </div>
+          <div class="gallery-item">
+            <img src="public/purvaP3.jpeg" alt="Purva beach laugh" class="gallery-img" />
+            <div class="gallery-caption">Candid Laugh 🌊✨</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Replay / Action Button -->
+      <div class="btn-group" style="margin-top: 15px;">
+        <a href="index.html" class="btn-custom btn-yes" style="font-size: 1rem; padding: 10px 26px;">
+          🔄 Relive From Start
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
